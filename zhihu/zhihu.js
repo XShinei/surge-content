@@ -92,4 +92,8 @@ const processPeopleSelf = () => {
   }
 };
 
+console.log('debug: ');
+console.log(url);
+console.log(obj);
+
 $done({ body: JSON.stringify(obj) });
