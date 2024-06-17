@@ -83,8 +83,12 @@ const processPeopleSelf = () => {
         };
       }
     }
+
+    console.log('info people/self: ');
+    console.log(obj);
   } catch (err) {
-    
+    console.log('error people/self: ');
+    console.log(err);
   }
 };
 
