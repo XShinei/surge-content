@@ -10,6 +10,8 @@ DOMAIN,appcloud.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 URL-REGEX,^https:\/\/api\.zhihu\.com\/commercial_api\/(app_float_layer),REJECT
 URL-REGEX,^https:\/\/api\.zhihu\.com\/commercial_api\/answer,REJECT
+# 推荐页列表 品牌广告
+URL-REGEX,^https:\/\/zhstatic\.zhihu\.com\/brand-ad\/image,REJECT
 
 [Map Local]
 # 推荐页列表 APP推荐
