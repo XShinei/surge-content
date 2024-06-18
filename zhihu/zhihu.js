@@ -1,7 +1,7 @@
 if (!$response.body) $done({});
 
 const url = $request.url;
-const obj = JSON.parse($response.body);
+let obj = JSON.parse($response.body);
 
 if (url.includes('topstory/recommend')) {
   obj.data = obj.data.filter(x => !x.adjson);
@@ -22,6 +22,9 @@ else if (url.includes('next-render')) {
 }
 else if (url.includes('people/self')) {
   processPeopleSelf();
+}
+else if (url.includes('api/v4/videos')) {
+  obj = {};
 }
 
 const processPeopleSelf = () => {
