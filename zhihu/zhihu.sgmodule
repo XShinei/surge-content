@@ -8,6 +8,12 @@ DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,crash2.zhihu.com,REJECT
 DOMAIN,appcloud.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
+# 广告域名
+DOMAIN,utoken.umeng.com,REJECT
+DOMAIN,ulogs.umeng.com,REJECT
+DOMAIN,toblog.volceapplog.com,REJECT
+DOMAIN,open.kuaishouzt.com,REJECT
+DOMAIN,t-dsp.pinduoduo.com,REJECT
 URL-REGEX,^https:\/\/api\.zhihu\.com\/commercial_api\/(app_float_layer),REJECT
 URL-REGEX,^https:\/\/api\.zhihu\.com\/commercial_api\/answer,REJECT
 # 推荐页列表 品牌广告
