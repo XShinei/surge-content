@@ -98,5 +98,6 @@ const processPeopleSelf = () => {
 console.log('debug: ');
 console.log(url);
 console.log(obj);
+console.log(url.includes('api/v4/videos'));
 
 $done({ body: JSON.stringify(obj) });
