@@ -11,9 +11,20 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 # 广告域名
 DOMAIN,utoken.umeng.com,REJECT
 DOMAIN,ulogs.umeng.com,REJECT
+DOMAIN,ulogs.umengcloud.com,REJECT
 DOMAIN,toblog.volceapplog.com,REJECT
+DOMAIN,tobapplog.volceapplog.com,REJECT
+DOMAIN,klink.volceapplog.com,REJECT
+DOMAIN,abtest.volceapplog.com,REJECT
 DOMAIN,open.kuaishouzt.com,REJECT
 DOMAIN,t-dsp.pinduoduo.com,REJECT
+DOMAIN,open.kwaizt.com,REJECT
+DOMAIN,httpdns.kwd.inkuai.com,REJECT
+DOMAIN,aaid.uyunad.com,REJECT
+DOMAIN,adtracker.medproad.com,REJECT
+DOMAIN,idfa2.shuzilm.cn,REJECT
+URL-REGEX,^https:\/\/images\.pinduoduo\.com\/marketing_api,REJECT
+
 URL-REGEX,^https:\/\/api\.zhihu\.com\/commercial_api\/(app_float_layer),REJECT
 URL-REGEX,^https:\/\/api\.zhihu\.com\/commercial_api\/answer,REJECT
 # 推荐页列表 品牌广告
