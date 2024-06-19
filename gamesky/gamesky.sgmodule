@@ -1,0 +1,25 @@
+#!name=游民星空
+#!desc=净化
+
+[Rule]
+# 广告域名
+DOMAIN,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,log-api.pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao1.com,REJECT
+DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN,p26-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN,mon.zijieapi.com,REJECT
+DOMAIN,tnc3-alisc1.zijieapi.com,REJECT
+DOMAIN,adservice.adtroop.cn,REJECT
+DOMAIN,aspect-upush.umeng.com,REJECT
+DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN,open.e.kuaishou.cn,REJECT
+DOMAIN,gdfp.gifshow.com,REJECT
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,yumao.puata.info,REJECT
+# 开屏广告
+URL-REGEX,^http(s)?:\/\/router3\.gamersky\.com\/@adSystem\/ad\/getAdAtLaunchView,REJECT
