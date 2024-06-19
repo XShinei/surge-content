@@ -27,7 +27,7 @@ else if (url.includes('api/v4/videos')) {
   obj = {};
 }
 
-const processPeopleSelf = () => {
+function processPeopleSelf() {
   try {
     if (
       obj &&
@@ -86,18 +86,10 @@ const processPeopleSelf = () => {
         };
       }
     }
-
-    console.log('info people/self: ');
-    console.log(obj);
   } catch (err) {
     console.log('error people/self: ');
     console.log(err);
   }
 };
-
-console.log('debug: ');
-console.log(url);
-console.log(obj);
-console.log(url.includes('api/v4/videos'));
 
 $done({ body: JSON.stringify(obj) });
